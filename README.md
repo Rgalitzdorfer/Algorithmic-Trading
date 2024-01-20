@@ -3,7 +3,7 @@
 This Algo trading strategy is designed to take advnatge of strong momentum in a volatile trending market by integrating key indicators. It utilizes the ADX to gauge trend strength, RSI for entry signals, the 50 EMA to establish trend direction, and a candlestick close beyond the previous range to suggest a potential breakout. Exit signals are triggered when the ADX returns to normal conditions, indicating a decline in momentum and a potenetial reversal. Backtesting will focus on the past two years, specifically on a volatile currency pair like Bitcoin, to assess the strategy's effectiveness. This combination of indicators aims to provide a systematic approach to momentum trading in dynamic market conditions.
 
 The following data science concepts are used in this project
-1. Feature Engineering (Creating new columns for TA indicators)
+1. Feature Engineering (Creating new TA indicators)
 2. Model Building (Stategy development; combining TA indicators to enhance performance of Hypothesis)
 3. Model Evaluation (Evaluate strategy performance; analyze risk versus reward paramaters to decide if strategy is worth implementing)
 
