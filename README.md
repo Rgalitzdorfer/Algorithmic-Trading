@@ -16,7 +16,7 @@ The following technology & libraries are used in this project
 6. Vectorbt (Backtesting Strategy)
 
 ## Future Improvements
-As this was my first Algorithmic trading strategy, there is a lot of room for improvement. More specifically, I would like to focus on the logic and reasoning of the parameters used in the strategy opposed to the results of the strategy (Expectancy, Profitability, Etc.) Some areas of improvement include:
+As this was my first Algorithmic trading strategy, there is a lot of room for improvement. More specifically, I would like to focus on the logic and reasoning of the parameters used in the strategy opposed to the results of the strategy itself (Expectancy, Profitability, Etc.) Some areas of improvement include:
 1. Entry Signal:
    One of the biggest challenges in any trend continuatuion/momentum strategy is striking the balance between entering too early and missing the trade. While RSI served as a decent entry for this strategy, it is not limiting enough as an entry signal to filter out false breakouts nor does it offer any unique insight. For example, extreme ADX conditions are often indicative of extreme RSI conditions meaning that both oscillators are showing the same sign as there is too much of an overlap betweeen the two. For a future strategy, the overlap of these indicators could be reduced through utilizing different leading and lagging indicators to try and highlight other facets of trading such as volume and areas of support/resistance.
 2. Currency Selection:
